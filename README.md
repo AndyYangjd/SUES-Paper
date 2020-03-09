@@ -23,3 +23,6 @@
 使用前请先按照：https://github.com/Haixing-Hu/GBT7714-2005-BibTeX-Style 中的说明进行参考文献格式 GB/T 7714-2005 的设定，否则会出现编译失败。既然选择了使用了 VS Code + Latex 写论文，就要先发挥不怕折腾的精神，按照上述链接的说明很简单就可以操作。
 
 本工具链在.vscode/settings.json 中设置了两个编译指令：xelatex 和 xelatex ➞ bibtex ➞ xelatex ➞ xelatex。其中当参考文献项更新时，需要使用第二套编译指令，其余第一套即可。
+
+# 测试结果
+见 main.pdf 文件
